@@ -1,6 +1,5 @@
 # 이 함수는 DynamoDB에서 고객정보를 읽어 AmazonConnect에서 사용할 변수로 리턴 한다. 
 # 람다 환경설정에서 생성한 DynamoDB에 맞는 환경변수 설정 해줘야 한다.
-import json
 import boto3
 import os
 
